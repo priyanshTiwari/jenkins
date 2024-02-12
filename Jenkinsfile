@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             environment {
-                  HOME="C:/Users/Priyansh/.jenkins/workspace/first-ci/"
+                  HOME="C:/Jenkins/.jenkins/workspace/first-ci/"
                 }
             steps {
                 sh 'mvn --version'
